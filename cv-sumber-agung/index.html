@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumber Agung | Premium Rent Car</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Cv Sumber<span>Agung</span></div>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#cars">Koleksi</a></li>
+                <li><a href="#booking" class="nav-btn">Sewa Sekarang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="hero-content" data-aos="fade-up">
+            <span class="badge">#1 LUXURY RENTAL</span>
+            <h1>Drive Your <span>Dream</span> Today</h1>
+            <p>Eksplorasi tanpa batas dengan unit premium CV Sumber Agung. Pelayanan bintang 5, armada selalu prima.</p>
+            <div class="hero-actions">
+                <a href="#cars" class="btn-main ripple">Eksplor Armada <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </header>
+
+  <div class="stats-container">
+    <div class="stat-item">
+        <h3 class="counter" data-target="1200">0</h3>
+        <p>Pelanggan</p>
+    </div>
+
+    <div class="stat-divider"></div>
+
+    <div class="stat-item">
+        <h3 class="counter" data-target="50">0</h3>
+        <p>Mobil</p>
+    </div>
+
+    <div class="stat-divider"></div>
+
+    <div class="stat-item">
+        <h3 class="counter" data-target="10">0</h3>
+        <p>Tahun Pengalaman</p>
+    </div>
+</div>
+
+    <section id="cars" class="car-section">
+        <div class="container">
+            <div class="section-header"></div>
+            <div class="section-header" data-aos="fade-right">
+                <h2>Our <span>Fleet</span></h2>
+                <p>Pilih kendaraan yang sesuai dengan gaya Anda.</p>
+            </div>
+            <div class="car-wrapper" id="carDisplay"></div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking-area">
+        <div class="booking-grid">
+            <div class="booking-card" data-aos="zoom-in">
+                <div class="booking-header">
+                    <h2>Reservasi <span>Cepat</span></h2>
+                    <p>Admin kami akan menghubungi Anda segera.</p>
+                </div>
+                <form id="waForm" class="modern-form">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="custName" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-car"></i>
+                        <select id="carUnit" required></select>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-calendar"></i>
+                        <input type="date" id="rentDate" required>
+                    </div>
+                    <button type="submit" class="btn-wa ripple">
+                        Konfirmasi ke WhatsApp <i class="fab fa-whatsapp"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <footer class="modern-footer">
+    <div class="footer-top">
+        <div class="footer-container">
+            <div class="footer-brand" data-aos="fade-up">
+                <div class="logo">CV<span>SumberAgung</span></div>
+                <p>Menghadirkan kenyamanan berkendara kelas dunia dengan armada premium terbaik di Indonesia. Keamanan dan kepuasan pelanggan adalah prioritas utama kami.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#cars">Koleksi Armada</a></li>
+                    <li><a href="#booking">Reservasi</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact" data-aos="fade-up" data-aos-delay="200">
+                <h4>Hubungi Kami</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Jl.Affandi No.6 Sleman, yogyakarta</li>
+                    <li><i class="fas fa-phone-alt"></i> +62 812 3456 789</li>
+                    <li><i class="fas fa-envelope"></i> cvsumberagung@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-container">
+            <p>&copy; 2026 CV Sumber Agung - Rental Mobil. Designed by irfan.a</p>
+            <div class="footer-payment">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fas fa-university"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
